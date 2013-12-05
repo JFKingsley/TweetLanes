@@ -51,7 +51,7 @@ public class TutorialActivity extends FragmentActivity {
 
     /*
      *
-	 */
+         */
     App getApp() {
         return (App) getApplication();
     }
@@ -93,7 +93,7 @@ public class TutorialActivity extends FragmentActivity {
 
     /*
      *
-	 */
+         */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
@@ -139,8 +139,8 @@ public class TutorialActivity extends FragmentActivity {
     }
 
     /*
-	 * 
-	 */
+         * 
+         */
     private final OnPageChangeListener mOnPageChangeListener = new OnPageChangeListener() {
 
         @Override
@@ -172,8 +172,8 @@ public class TutorialActivity extends FragmentActivity {
     };
 
     /*
-	 * 
-	 */
+         * 
+         */
     public void onFinishTutorialClicked(View view) {
         // We don't want to come back here, so remove from the activity stack
         finish();
@@ -188,8 +188,8 @@ public class TutorialActivity extends FragmentActivity {
     }
 
     /*
-	 * 
-	 */
+         * 
+         */
     public void onFollowCheckboxClicked(View view) {
         mDoFollow = ((CheckBox) (view)).isChecked();
     }
